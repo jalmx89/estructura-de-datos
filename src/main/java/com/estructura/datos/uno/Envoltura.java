@@ -1,7 +1,6 @@
 package com.estructura.datos.uno;
 
 /**
- * Created by josef on 8/8/17.
  * 00 Clase para demostracion de clases envolturas para tipos primitivos
  */
 public class Envoltura {
@@ -18,7 +17,6 @@ public class Envoltura {
         Byte bite = new Byte(Byte.MAX_VALUE);
         Short corto = new Short(Short.MAX_VALUE);
         Long largo = new Long(Long.MAX_VALUE);
-
 
         Character caracter = new Character('A');
 

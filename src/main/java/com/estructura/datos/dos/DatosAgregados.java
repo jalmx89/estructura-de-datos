@@ -10,30 +10,25 @@ import java.util.HashMap;
  */
 public class DatosAgregados {
 
-    public static void main(String[] args) {
-        System.out.println("------------------");
-        arreglos();
-        System.out.println("------------------");
-        cadenas();
-        System.out.println("------------------");
-        registros();
-        System.out.println("------------------");
+    private DatosAgregados() {
     }
 
-    public static void arreglos() {
-        int[] arr = {4, 6, 7, 8, 9, 34, 23};
+    public static int[] arreglos() {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7};
         System.out.println("Arreglo:");
         System.out.println(Arrays.toString(arr));
+        return arr;
     }
 
-    public static void cadenas() {
+    public static String  cadenas() {
         String cadena = "Estructura de datos";
 
         System.out.println("Cadena:");
         System.out.println(cadena);
+        return cadena;
     }
 
-    public static void registros() {
+    public static HashMap registros() {
         System.out.println("Registros:");
 
         HashMap registro = new HashMap();
@@ -47,5 +42,6 @@ public class DatosAgregados {
         for (Object entry : registro.entrySet()) {
             System.out.println(entry);
         }
+        return registro;
     }
 }
