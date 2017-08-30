@@ -29,7 +29,7 @@ public class DatosAgregados {
     }
 
     public static HashMap registros() {
-        System.out.println("Registros:");
+        System.out.println("Registros: ");
 
         HashMap registro = new HashMap();
 
