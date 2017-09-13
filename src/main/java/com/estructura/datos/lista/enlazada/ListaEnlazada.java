@@ -23,17 +23,14 @@ public class ListaEnlazada {
     public void insertarPrimero(Object elemento) {
 
         if (cabeza == null) { //si esta pasando un nodo por primera vez, se carga al inicio por default
-
             cabeza = new Nodo(elemento);
-            tamanio++; //se incrementa y el valor se vuele 0
-
         } else {//si ya lista ya contiene elementos, se necesita agregar antes del primero actual, para que sea la nueva cabeza
             Nodo temporal = cabeza; //movemos la cabeza actual, a un nodo temporal
             Nodo nuevo = new Nodo(elemento); //genero el nuevo nodo, que se esta agregando
             nuevo.enlazarSiguiente(temporal); //enlazo el nodo que era el primero con el nuevo
             cabeza = nuevo; //hago el nuevo nodo, la cabeza de la lista
-            tamanio++;
         }
+        tamanio++; //se incrementa y el valor se vuele 0
     }
 
     public int obtenerTamanioLista() {
@@ -54,7 +51,7 @@ public class ListaEnlazada {
             contador++; //incremento mi contador
         }
 
-        return temporal.obtenerNodo();
+        return temporal.obtenerElemento();
     }
 
     public void removerPrimero() {

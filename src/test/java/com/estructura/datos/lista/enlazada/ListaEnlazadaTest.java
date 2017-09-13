@@ -17,17 +17,17 @@ public class ListaEnlazadaTest {
         nodo1.enlazarSiguiente(nodo2);
         nodo1.obtenerSiguiente().enlazarSiguiente(nodo3);
 
-        System.out.println(nodo1.obtenerNodo());
-        System.out.println(nodo1.obtenerSiguiente().obtenerNodo());
-        System.out.println(nodo2.obtenerSiguiente().obtenerNodo());
+        System.out.println(nodo1.obtenerElemento());
+        System.out.println(nodo1.obtenerSiguiente().obtenerElemento());
+        System.out.println(nodo2.obtenerSiguiente().obtenerElemento());
 
         assertEquals("Nodo 1 enlazado con Nodo 2 fallido",
-                nodo2.obtenerNodo(),
-                nodo1.obtenerSiguiente().obtenerNodo());
+                nodo2.obtenerElemento(),
+                nodo1.obtenerSiguiente().obtenerElemento());
 
         assertEquals("Nodo 2 enlazado con Nodo 3 fallido",
-                nodo3.obtenerNodo(),
-                nodo2.obtenerSiguiente().obtenerNodo());
+                nodo3.obtenerElemento(),
+                nodo2.obtenerSiguiente().obtenerElemento());
 
         assertNull("Tiene un enlace", nodo3.obtenerSiguiente());
     }

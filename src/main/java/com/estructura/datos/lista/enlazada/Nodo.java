@@ -19,7 +19,7 @@ public class Nodo {
         return this.siguiente;
     }
 
-    public Object obtenerNodo() {
+    public Object obtenerElemento() {
         return this.elemento;
     }
 
