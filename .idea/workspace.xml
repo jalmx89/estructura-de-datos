@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c3bb1a6-9e6f-4e7a-90dd-5aa5d56ad378" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estructura/datos/cola/Colas.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Stack.java" afterPath="$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Pila.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/doble/ListaDoblementeEnlazada.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/doble/NodoDoble.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/estructura/datos/pila/PilaTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/ListaEnlazada.java" afterPath="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/ListaEnlazada.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/Nodo.java" afterPath="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/Nodo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Pila.java" afterPath="$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Pila.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/estructura/datos/lista/enlazada/ListaEnlazadaTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/estructura/datos/lista/enlazada/ListaEnlazadaTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,29 +37,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Nodo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/Nodo.java">
+      <file leaf-file-name="Pila.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Pila.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="229">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListaEnlazada.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/ListaEnlazada.java">
+      <file leaf-file-name="PilaTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/estructura/datos/pila/PilaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-              <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="method#estaVacia#0;class#ListaEnlazada#0" expanded="false" />
-                <element signature="method#insertarPrimero#0;class#ListaEnlazada#0" expanded="false" />
-                <element signature="method#removerPrimero#0;class#ListaEnlazada#0" expanded="false" />
-                <element signature="method#remover#0;class#ListaEnlazada#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="373">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -377,9 +371,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/estructura/datos/search/SearchBinaryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/ListaEnlaza.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/estructura/datos/lista/enlazada/ListaEnlazadaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Pila.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/Nodo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/ListaEnlazada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/doble/Nodo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/doble/NodoDoble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/doble/ListaDoblementeEnlazada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Pila.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/estructura/datos/pila/PilaTest.java" />
       </list>
     </option>
   </component>
@@ -406,9 +404,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -449,7 +447,17 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datos" type="462c0819:PsiDirectoryNode" />
-              <item name="enlazada" type="462c0819:PsiDirectoryNode" />
+              <item name="lista" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estructura.datos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estructura-de-datos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+              <item name="lista" type="462c0819:PsiDirectoryNode" />
+              <item name="doble" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="estructura.datos" type="b2602c69:ProjectViewProjectNode" />
@@ -473,19 +481,41 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="estructura.datos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estructura-de-datos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estructura.datos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estructura-de-datos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+              <item name="pila" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.estructura.datos.lista.doble" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -499,20 +529,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListaEnlazadaTest.eliminardoTodoListaTest">
-    <configuration name="ListaEnlazadaTest.eliminardoTodoListaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PilaTest">
+    <configuration name="PilaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.estructura.datos.lista.enlazada.*" />
+          <option name="PATTERN" value="com.estructura.datos.pila.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="estructura.datos_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.estructura.datos.lista.enlazada" />
-      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.lista.enlazada.ListaEnlazadaTest" />
-      <option name="METHOD_NAME" value="eliminardoTodoListaTest" />
+      <option name="PACKAGE_NAME" value="com.estructura.datos.pila" />
+      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.pila.PilaTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PilaTest.emptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.estructura.datos.pila.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="estructura.datos_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.estructura.datos.pila" />
+      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.pila.PilaTest" />
+      <option name="METHOD_NAME" value="emptyTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -525,19 +580,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ListaEnlazadaTest.listaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PilaTest.peekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.estructura.datos.lista.enlazada.*" />
+          <option name="PATTERN" value="com.estructura.datos.pila.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="estructura.datos_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.estructura.datos.lista.enlazada" />
-      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.lista.enlazada.ListaEnlazadaTest" />
-      <option name="METHOD_NAME" value="listaTest" />
+      <option name="PACKAGE_NAME" value="com.estructura.datos.pila" />
+      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.pila.PilaTest" />
+      <option name="METHOD_NAME" value="peekTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -550,19 +605,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ListaEnlazadaTest.nodoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PilaTest.pilaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.estructura.datos.lista.enlazada.*" />
+          <option name="PATTERN" value="com.estructura.datos.pila.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="estructura.datos_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.estructura.datos.lista.enlazada" />
-      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.lista.enlazada.ListaEnlazadaTest" />
-      <option name="METHOD_NAME" value="nodoTest" />
+      <option name="PACKAGE_NAME" value="com.estructura.datos.pila" />
+      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.pila.PilaTest" />
+      <option name="METHOD_NAME" value="pilaTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -575,44 +630,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ListaEnlazadaTest.removiendoElementosListaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PilaTest.topTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.estructura.datos.lista.enlazada.*" />
+          <option name="PATTERN" value="com.estructura.datos.pila.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="estructura.datos_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.estructura.datos.lista.enlazada" />
-      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.lista.enlazada.ListaEnlazadaTest" />
-      <option name="METHOD_NAME" value="removiendoElementosListaTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ListaEnlazadaTest.tamanioListaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.estructura.datos.lista.enlazada.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="estructura.datos_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.estructura.datos.lista.enlazada" />
-      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.lista.enlazada.ListaEnlazadaTest" />
-      <option name="METHOD_NAME" value="tamanioListaTest" />
+      <option name="PACKAGE_NAME" value="com.estructura.datos.pila" />
+      <option name="MAIN_CLASS_NAME" value="com.estructura.datos.pila.PilaTest" />
+      <option name="METHOD_NAME" value="topTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -837,19 +867,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.nodoTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.listaTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.tamanioListaTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.removiendoElementosListaTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.eliminardoTodoListaTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PilaTest.pilaTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PilaTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PilaTest.topTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PilaTest.emptyTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PilaTest.peekTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.eliminardoTodoListaTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.removiendoElementosListaTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.tamanioListaTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.listaTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ListaEnlazadaTest.nodoTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PilaTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PilaTest.peekTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PilaTest.emptyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PilaTest.topTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PilaTest.pilaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -867,35 +897,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListaEnlazadaTest_eliminardoTodoListaTest - 2017.09.06 at 23h 50m 21s.xml">
-      <configuration name="ListaEnlazadaTest.eliminardoTodoListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest - 2017.09.15 at 16h 51m 45s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_eliminardoTodoListaTest - 2017.09.06 at 23h 53m 11s.xml">
-      <configuration name="ListaEnlazadaTest.eliminardoTodoListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest - 2017.09.15 at 16h 53m 16s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_eliminardoTodoListaTest - 2017.09.06 at 23h 53m 42s.xml">
-      <configuration name="ListaEnlazadaTest.eliminardoTodoListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest - 2017.09.15 at 16h 53m 58s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_removiendoElementosListaTest - 2017.09.06 at 23h 32m 33s.xml">
-      <configuration name="ListaEnlazadaTest.removiendoElementosListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest - 2017.09.15 at 16h 54m 49s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_removiendoElementosListaTest - 2017.09.06 at 23h 33m 00s.xml">
-      <configuration name="ListaEnlazadaTest.removiendoElementosListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest - 2017.09.15 at 16h 56m 00s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_removiendoElementosListaTest - 2017.09.06 at 23h 34m 52s.xml">
-      <configuration name="ListaEnlazadaTest.removiendoElementosListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest - 2017.09.15 at 16h 56m 33s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_removiendoElementosListaTest - 2017.09.06 at 23h 35m 28s.xml">
-      <configuration name="ListaEnlazadaTest.removiendoElementosListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest - 2017.09.15 at 16h 56m 46s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_removiendoElementosListaTest - 2017.09.06 at 23h 40m 29s.xml">
-      <configuration name="ListaEnlazadaTest.removiendoElementosListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest - 2017.09.15 at 16h 57m 51s.xml">
+      <configuration name="PilaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_removiendoElementosListaTest - 2017.09.06 at 23h 42m 44s.xml">
-      <configuration name="ListaEnlazadaTest.removiendoElementosListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest_peekTest - 2017.09.15 at 16h 55m 06s.xml">
+      <configuration name="PilaTest.peekTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListaEnlazadaTest_removiendoElementosListaTest - 2017.09.06 at 23h 43m 42s.xml">
-      <configuration name="ListaEnlazadaTest.removiendoElementosListaTest" configurationId="JUnit" />
+    <history-entry file="PilaTest_peekTest - 2017.09.15 at 16h 56m 25s.xml">
+      <configuration name="PilaTest.peekTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -908,21 +938,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5136437" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35511363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35511363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5119048" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5119048" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515275" sideWeight="0.4809322" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20355412" sideWeight="0.4809322" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20436187" sideWeight="0.5190678" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -939,9 +971,8 @@
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -956,6 +987,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/doble/ListaDoblementeEnlazada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#estaVacia#0;class#ListaDoblementeEnlazada#0" expanded="false" />
+            <element signature="method#removerPrimero#0;class#ListaDoblementeEnlazada#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Pila.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -968,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,13 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/estructura/datos/DatosAgregadosTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -1161,38 +1195,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/ListaEnlazada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="method#estaVacia#0;class#ListaEnlazada#0" expanded="false" />
+            <element signature="method#insertarPrimero#0;class#ListaEnlazada#0" expanded="false" />
+            <element signature="method#obtenerElemento#0;class#ListaEnlazada#0" expanded="false" />
+            <element signature="method#removerPrimero#0;class#ListaEnlazada#0" expanded="false" />
+            <element signature="method#remover#0;class#ListaEnlazada#0" expanded="false" />
+            <element signature="method#iniciarLista#0;class#ListaEnlazada#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/Nodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#464#465#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/estructura/datos/DatosAgregadosTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/doble/ListaDoblementeEnlazada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="method#estaVacia#0;class#ListaDoblementeEnlazada#0" expanded="false" />
+            <element signature="method#removerPrimero#0;class#ListaDoblementeEnlazada#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/doble/NodoDoble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/BeforeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/pila/Pila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/Nodo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/estructura/datos/pila/PilaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="373">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estructura/datos/lista/enlazada/ListaEnlazada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="method#estaVacia#0;class#ListaEnlazada#0" expanded="false" />
-            <element signature="method#insertarPrimero#0;class#ListaEnlazada#0" expanded="false" />
-            <element signature="method#removerPrimero#0;class#ListaEnlazada#0" expanded="false" />
-            <element signature="method#remover#0;class#ListaEnlazada#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

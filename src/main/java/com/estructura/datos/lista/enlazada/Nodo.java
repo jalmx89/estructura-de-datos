@@ -25,6 +25,6 @@ public class Nodo {
 
     @Override
     public String toString() {
-        return "Nodo{" + siguiente + '}';
+        return "NodoDoble{" + siguiente + '}';
     }
 }

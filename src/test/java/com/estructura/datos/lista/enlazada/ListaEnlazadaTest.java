@@ -21,11 +21,11 @@ public class ListaEnlazadaTest {
         System.out.println(nodo1.obtenerSiguiente().obtenerElemento());
         System.out.println(nodo2.obtenerSiguiente().obtenerElemento());
 
-        assertEquals("Nodo 1 enlazado con Nodo 2 fallido",
+        assertEquals("NodoDoble 1 enlazado con NodoDoble 2 fallido",
                 nodo2.obtenerElemento(),
                 nodo1.obtenerSiguiente().obtenerElemento());
 
-        assertEquals("Nodo 2 enlazado con Nodo 3 fallido",
+        assertEquals("NodoDoble 2 enlazado con NodoDoble 3 fallido",
                 nodo3.obtenerElemento(),
                 nodo2.obtenerSiguiente().obtenerElemento());
 
