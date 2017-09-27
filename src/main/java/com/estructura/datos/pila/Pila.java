@@ -16,7 +16,7 @@ public class Pila {
         this.elementos = new Object[tamanioMaximo];
     }
 
-    public boolean empty() {
+    public boolean isEmpty() {
 
         if (positionTope == 0) {
             return true;

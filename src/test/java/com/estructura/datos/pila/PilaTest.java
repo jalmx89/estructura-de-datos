@@ -1,6 +1,5 @@
 package com.estructura.datos.pila;
 
-import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -31,13 +30,13 @@ public class PilaTest {
 
         Pila pilaLocal = new Pila(3);
 
-        assertEquals("Pila no vacía", true, pilaLocal.empty());
+        assertEquals("Pila no vacía", true, pilaLocal.isEmpty());
 
         pilaLocal.push(2);
         pilaLocal.push(4);
         pilaLocal.push(7);
 
-        assertEquals("Pila vacía ", false, pilaLocal.empty());
+        assertEquals("Pila vacía ", false, pilaLocal.isEmpty());
 
     }
 
